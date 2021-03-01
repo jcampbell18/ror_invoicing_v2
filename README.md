@@ -132,3 +132,11 @@
     - `end`
     
 - ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2018-54-10.png)
+
+### Seed the database
+
+- examples: 
+  
+    - `State.new(name: 'Washington', abbreviation: 'WA')`
+
+- `rails db:seed`
