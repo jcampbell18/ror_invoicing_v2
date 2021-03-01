@@ -103,3 +103,17 @@
       
         - class Api::V2::SomeController < ApplicationController
 
+### Update Routes with Namespaces
+
+- above the first resources line, add:
+    
+    - `namespace :api do`
+      
+    - `  namespace :v2 do`
+    
+- after the last resources line, add:
+
+    - `  end`
+    
+    - `end`
+    
