@@ -47,37 +47,34 @@
 
 ##### Terminal Commands
 
-`rails g scaffold State name:string{75} abbreviation:string{4}`
+- `rails g scaffold State name:string{75} abbreviation:string{4}`
+
+- `rails g scaffold BidStatus name:string{20}`
+
+- `rails g scaffold AccessLevel name:string{50} description:string{250}`
+
+- `rails g scaffold CompanyCategory name:string{50}`
 
 
-`rails g scaffold BidStatus name:string{20}`
+- `rails g scaffold ExpenseCategory name:string{50} description:string{250}`
 
 
-`rails g scaffold AccessLevel name:string{50} description:string{250}`
+- `rails g scaffold Vehicle man_year:date make:string{50} model:string{50} sub_model:string{50} engine:string{50} notes:string{150}`
 
 
-`rails g scaffold CompanyCategory name:string{50}`
+- `rails g scaffold Sku name:string{50} description:string{250}`
 
 
-`rails g scaffold ExpenseCategory name:string{50} description:string{250}`
+- `rails g scaffold Term name:string{150}`
 
 
-`rails g scaffold Vehicle man_year:date make:string{50} model:string{50} sub_model:string{50} engine:string{50} notes:string{150}`
+- `rails g scaffold ImageType name:string{50}`
 
 
-`rails g scaffold Sku name:string{50} description:string{250}`
+- `rails g scaffold Image image_type:references filename:string{250} title:string{75} file_path:text`
 
 
-`rails g scaffold Term name:string{150}`
-
-
-`rails g scaffold ImageType name:string{50}`
-
-
-`rails g scaffold Image image_type:references filename:string{250} title:string{75} file_path:text`
-
-
-`rails db:migrate`
+- `rails db:migrate`
 
 #### Tables with foreign keys
 
