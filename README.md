@@ -24,6 +24,8 @@
 
 - generated-command: `rails _6.0.3.5_ new /home/jcryuu/ror_projects/ror_invoicing_v2 --api --skip --database=postgresql`
 
+- - ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2018-53-12.png)
+
 ##### Database
 
 - click on Views > Tool Windows > Database
@@ -38,6 +40,8 @@
         - update database name url (at end to match name above)
             - `jdbc:postgresql://localhost:5432/ror_invoicing_v2_development`
         - test connection
+
+- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2019-04-39.png)
 
 ## Initialize Project
 
@@ -97,11 +101,15 @@
   
 - move all controller files to app/controllers/api/v2/ EXCEPT application_controller
 
+- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2018-56-26.png)
+
 - edit the files in app/controllers/api/v2
   
     - add `Api::V2::` to head of file:
       
         - class Api::V2::SomeController < ApplicationController
+
+- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2019-02-09.png)
 
 ### Update Routes with Namespaces
 
@@ -117,3 +125,4 @@
     
     - `end`
     
+- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2018-51-23.png)
