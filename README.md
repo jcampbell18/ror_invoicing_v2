@@ -45,7 +45,7 @@
           
         - test connection
 
-- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2019-04-39.png)
+- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2019-04-33.png)
 
 ## Build Database/Model
 
@@ -115,7 +115,7 @@
       
         - class Api::V2::SomeController < ApplicationController
 
-- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2019-02-09.png)
+- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2019-02-59.png)
 
 ### Update Routes with Namespaces
 
@@ -131,4 +131,4 @@
     
     - `end`
     
-- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2018-51-23.png)
+- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2018-54-10.png)
