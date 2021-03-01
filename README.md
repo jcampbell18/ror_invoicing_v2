@@ -24,7 +24,7 @@
 
 - generated-command: `rails _6.0.3.5_ new /home/jcryuu/ror_projects/ror_invoicing_v2 --api --skip --database=postgresql`
 
-- - ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2018-53-12.png)
+- ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2018-53-12.png)
 
 ##### Database
 
@@ -32,20 +32,26 @@
 
 - click on the '+' for new
     - Data Source > PostgreSQL
+      
         - update name field
             - `PostgreSQL`
+            
         - update username and password fields
+          
         - update database name
             - `ror_invoicing_v2_development`
         - update database name url (at end to match name above)
             - `jdbc:postgresql://localhost:5432/ror_invoicing_v2_development`
+          
         - test connection
 
 - ![image](https://raw.githubusercontent.com/jcampbell18/ror_invoicing_v2/master/Screenshot%20from%202021-02-28%2019-04-39.png)
 
-## Initialize Project
+## Build Database/Model
 
 ### Scaffold
+
+- creates controller, model, view, and updates routes
 
 #### Tables without foreign keys
 
