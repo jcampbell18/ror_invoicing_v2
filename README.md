@@ -20,6 +20,21 @@
 
 - generated-command: `rails _6.0.3.5_ new /home/jcryuu/ror_projects/ror_invoicing_v2 --api --skip --database=postgresql`
 
+##### Database
+
+- click on Views > Tool Windows > Database
+
+- click on the '+' for new
+    - Data Source > PostgreSQL
+        - update name field
+            - `PostgreSQL`
+        - update username and password fields
+        - update database name
+            - `ror_invoicing_v2_development`
+        - update database name url (at end to match name above)
+            - `jdbc:postgresql://localhost:5432/ror_invoicing_v2_development`
+        - test connection
+
 ## Initialize Project
 
 ### Scaffold
